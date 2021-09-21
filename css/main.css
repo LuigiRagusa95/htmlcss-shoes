@@ -21,25 +21,12 @@ body {
     position: relative;
 }
 
-.bg-red {
-    background-color: red;
-}
+.bg-red { background-color: red; }
+.bg-green { background-color: green; }
+.bg-yellow { background-color: yellow; }
 
-.bg-green {
-    background-color: green;
-}
-
-.bg-yellow {
-    background-color: yellow;
-}
-
-.txt-yellow {
-    color: yellow;
-}
-
-.txt-green {
-    color: green;
-}
+.txt-green { color: green; }
+.txt-yellow { color: yellow; }
 
 /* NAV */
 .container nav {
@@ -49,7 +36,7 @@ body {
     position: fixed;
 }
 
-.container nav a {
+.container > nav a {
     width: 42px;
     height: 42px;
     color: #000;
